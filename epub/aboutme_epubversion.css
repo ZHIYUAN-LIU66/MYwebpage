@@ -1,0 +1,54 @@
+/* This is my style sheet applied to aboutme.html*/
+
+/* adjust the width and height of the picture list */
+#picturelist {
+  width: auto;
+  height: auto;
+}
+
+#picturelist ul {
+  width: auto;
+  height: auto;
+}
+
+#picturelist li{
+  list-style: none;
+  /* padding: 10px; */
+}
+h1 {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+/* set the size of images, and float them to the left of paragraphs */
+#sc, #anu, #shu{
+  width:20%;
+  float: left;
+  margin-right: 10px;
+}
+
+/* style the paragraphs in the picture list  */
+#picturelist p{
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  /* font-weight: bold; */
+}
+
+/* style the links inserted in paragraphs */
+#picturelist a{
+  color: black;
+}
+
+/* set the size of png images inserted in the paragraphs */
+#chili, #graduation, #baggage{
+  width:3%;
+}
+
+
+
+ 
+  
+  
