@@ -1,0 +1,91 @@
+/* This is the default style sheet applied to all pages*/
+
+
+body {
+  /* set the background image to fit the size of screen */
+  background-size: cover;
+  /* set the font */
+  font-family: serif, sans-serif;
+  /* let background image do not repeat in different screen size */
+  background-repeat: no-repeat;
+}
+  
+/* set the top heading in all pages */
+h1 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+/* clear the float: left  */
+.clearleft{
+  clear: left;
+}
+/* clear the float: right  */
+.clearright {
+  clear: right;
+}
+
+
+
+
+
+
+
+/* This is for the bottom menu in all pages */
+/* set the font and position of this bottom list */
+#bottommenu {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* terms in the list to be white and displayed horizontally */
+#bottommenu li{
+  color: white;
+  display: inline;
+}
+
+/* style links in the list */
+#bottommenu a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* when move mouse over the link, colour will change */
+#bottommenu a:hover{
+  color: rgb(186, 211, 247);
+}
+
+
+
+
+
+/* style storyboard image and video */
+/* sytle the storyboard image */
+#storyboard{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  border: 10px solid rgb(186, 211, 247);
+}
+
+/* style the video */
+#myvideo {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  border: 10px solid rgb(186, 211, 247);
+}

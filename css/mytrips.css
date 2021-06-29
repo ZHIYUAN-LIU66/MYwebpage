@@ -1,0 +1,42 @@
+/* This is my style sheet applied to mytrips.html*/
+
+/* style the paragraph passion_description */
+#passion_description {   
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    /* paragraph float to the right of images */
+    float: right;
+    padding-top: 60px;
+}
+
+/* style the paragraph feedback_description */
+#feedback_description{  
+    text-align: center;
+    line-height: 60px;    
+    /* paragraph float to the right of images */
+    float: right;
+    padding-top: 400px;
+}
+
+/* set the size of china.png */
+#china_map {
+    width: 800px;
+}
+
+/* set the size of australia.png */
+#australia_map{
+    width: 900px;
+}
+
+/* style the link in paragraphs */
+#feedback_description a, #passion_description a{
+    font-weight: bold;
+    color: white;
+}
+
+/* resize the image of whitedot.PNG */
+#whitedot {
+    width:2%;
+}
+

@@ -1,0 +1,194 @@
+/* This is my style sheet applied to tripgallery_alt.html*/
+
+/* the menu bar  */
+#gallerymenu{
+    text-align: center;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+/* style the button */
+.dropdown_button{
+    background: none;
+    padding: 0 30px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* style the sub-button */
+.dropdown_content{
+    display: none;
+    position:absolute;
+    font-size: 30px;
+    text-align: left;
+}
+
+/* style the link of sub-button */
+.dropdown_content a{
+    color: white;
+    padding: 5px 0px 0px 30px;
+    display: block;
+    text-decoration: none;
+    width: max-content;
+}
+
+/* when mouse hover on menu button, color of the button changes */
+.dropdown:hover .dropdown_button{
+    color: rgb(38, 120, 235);
+}
+/* when mouse hover on menu button, the sub-button will appear */
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+/* when mouse hover on sub button, color of sub button changes */
+.dropdown_content a:hover{
+    color: rgb(186, 211, 247);
+}
+
+
+
+
+
+
+/* style h2 */
+.galleryh2 {
+    text-align: center;
+    margin-left: -15%;
+}
+/* style h3 */
+.galleryh3{
+    font-family: sans-serif;
+    color: rgb(186, 211, 247);
+    text-align: center;
+    font-size: 40px;
+    margin-left: -30%;
+}
+/* adjust the position of BACK and NEXT button */
+table td{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* photo gallery content  */
+.maincontainer{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 15%;
+}
+
+.container{
+    /* size of each container */
+    width: 390px;
+    height: 290px;
+    /* when mouse hover on images, images will enlarge and the extended part of images will be hidden */
+    overflow:hidden;
+    /* border of each container */
+    border: 10px solid rgb(186, 211, 247);
+    margin:3px;
+    /* position of others will not change when position of this one is adjusted */
+    position:relative;
+    float:left;
+}
+
+img{
+    /* size of each image */
+    width: 400px;
+    height: 300px;   
+    /* when mouse hover on images, images will enlarge and the extended part of images will be hidden */
+    overflow:hidden;
+    cursor:pointer;
+    /* time of achieving the effect */
+    transition-duration: .3s;
+}
+
+.title{
+    /* position of title */
+    position:absolute;
+    display:block;
+    top: 35%;
+    left: 20%;
+    /* style of title */
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    /* doesn't display when mouse doesn't hover on it */
+    display: none;
+    cursor:pointer;
+    /* time of achieving the effect */
+    transition-duration: .3s;
+}
+
+.text{
+    /* position of text */
+    position:absolute;
+    top: 70%;
+    left: 10%;
+    text-align:center;
+    max-width: 80%;
+    /* style of text */
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1em;
+    /* doesn't display when mouse doesn't hover on it */
+    display:none;
+    cursor:pointer;
+    /* time of achieving the effect */
+    transition-duration: .3s;
+}
+
+.container:hover img{
+    /* enlarge image when mouse hover on it */
+    transform: scale(1.5);
+    /* blur the image when mouse hover on it */
+    filter: blur(2px);
+    /* time of achieving the effect */
+    transition-duration: .3s;
+}
+
+.container:hover span{
+    /* color of title and text when mouse hover on it */
+    color:white;
+    display: block;
+    /* time of achieving the effect */
+    transition-duration: .3s;
+}
+
+
+
+
+
+
+
+
+/* the button clicked to back or next trip */
+.backnextbutton{
+    width: 50px;
+    height: 50px;
+}
+
+/* all trips will not appear before clicking the button */
+#chengdu, #northwestchina, #dali, #lishui, #ubud, #canberra, #sydney, #melbourne, #cairns{
+    display: none;
+}
+/* trips will appear once the button is clicked */
+#chengdu:target, #northwestchina:target, #dali:target, #lishui:target, #ubud:target, #canberra:target, #sydney:target, #melbourne:target, #cairns:target{
+    display: block;
+}
+
+
+
+
+
+

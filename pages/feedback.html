@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--this is the HEAD-->
+    <head>       
+        <!-- This statement tells browsers how to understand our characters -->     
+        <meta charset="utf-8">
+        <!-- title of the page -->
+        <title>Me and my passion</title>
+        <!-- link this .html to .css -->
+        <link rel="stylesheet" type="text/css" href="../css/allpages.css">
+        <link rel="stylesheet" type="text/css" href="../css/subpages.css">
+        <link rel="stylesheet" type="text/css" href="../css/feedback.css">
+        <!-- description of the content of this page -->
+        <meta name="description" content="feedback">       
+    </head>
+
+    <!--This is the BODY-->
+    <body>
+        <!-- the fixed top heading -->
+        <div id="navigation">
+            <h1>Feedback</h1>
+        </div> 
+
+        <div id="content">
+            <!-- the reply form for visitors to input their information and feedback -->
+            <div id="replyform">
+                <!-- email app will pop out once click the send button, and inputs will be posted into the email -->
+                <form enctype="text/plain" method="post" action="mailto:zhiyuan.liu@anu.edu.au?subject=Your%20Feedback%20to%20MyTripYourTrip%20website">    
+                    
+                    <!-- users input their names -->
+                    <label for="yourname">Your name:</label><br/>
+                    <input type="text" id= "yourname" name="Name" size="50" maxlength="50"><br/>
+                    
+                    
+                    <!-- user input their gender by selecting radio button-->
+                    <label>What's your gender?</label><br/>
+                    <input type="radio" id="male" name="Gender" value="Male"> 
+                    <label for="male">Male</label> 
+                    <input type="radio" id="female" name="Gender" value="Female"> 
+                    <label for="female">Female</label> 
+                    <input type="radio" id="other" name="Gender" value="Other">
+                    <label for="other">Other</label> 
+                    <input type="radio" id="nosay" name="Gender" value="I prefer not to say">
+                    <label for="other">I prefer not to say</label><br/>
+                    
+                    <!-- users input an answer for a question -->
+                    <label for="like">Do you like traveling?</label><br/>
+                    <input type="radio" id="crazy" name="Do you like traveling?" value="Crazy about it"> 
+                    <label for="crazy">Crazy about it</label> 
+                    <input type="radio" id="like" name="Do you like traveling?" value="Just like it"> 
+                    <label for="like">Just like it</label> 
+                    <input type="radio" id="no" name="Do you like traveling?" value="Not at all">
+                    <label for="no">Not at all</label><br/>
+                    
+                    <!-- users input an answer for a question -->
+                    <label for="feedback">Did you got any inspirations from My Trips? If yes, where is it?</label><br/>
+                    <textarea id="inspirations" name="Inspirations" cols="60" rows="1"></textarea><br/>
+                    
+                    <!-- users input an answer for a question -->
+                    <label for="feedback">Provide me an advice for my Next Destination:</label><br/>
+                    <textarea id="advice" name="Advice for Next Destination" cols="60" rows="1"></textarea><br/>
+
+                    <!-- users input an answer for a question -->
+                    <label for="feedback">Which image in this site is your favorite one?</label><br/>
+                    <textarea id="favoriteimage" name="Favorite image" cols="60" rows="1"></textarea><br/>
+
+                    <!-- users input an answer for a question -->
+                    <label for="feedback">DO you have any suggestions for my website?</label><br/>
+                    <textarea id="feedback" name="Feelings about this site" cols="60" rows="5"></textarea><br/>
+                    
+                    <!-- users input their email address -->
+                    <label for="email">Your email address:</label><br/>
+                    <input type="email" id="email" name="Email_address" size="50" maxlength="50"><br/>
+                    <hr>
+
+                    <!-- users can click send button to send the feedback or clear button to clear the form -->
+                    <label>Send your response:</label>
+                    <input type="submit" id="submitbutton" value="Send it">
+                    or
+                    <input type="reset" id="clearbutton" value="Clear"><br/>
+                    
+                </form>
+            </div>
+        </div> 
+        
+
+      
+
+      
+
+
+
+        <!-- This is the bottom menu -->
+        <div id="bottommenu">
+            <ul>
+                <!--This is the menu with relative and absolute links-->
+                <li><a href="../index.html">Home</a></li>
+                <li><span>|</span></li>
+                <li><a href="../assignment.html">Assignment</a></li>
+                <li><span>|</span></li>
+                <li><a href="./mission.html">Mission</a></li>
+                <li><span>|</span></li>
+                <li><a href="./sitemap.html">Site Map</a></li>
+                <li><span>|</span></li>
+                <li><a href="./sourcelog.html">Source Log</a></li>
+                <li><span>|</span></li>
+                <li><a href="./reflection.html">About My Site</a></li>
+                <li><span>|</span></li>
+                <li><a href="./validation.html">Validation Report</a></li>
+                <li><span>|</span></li>
+                <li><a href="../epub/epub_Me and my passion.rar"> Epub Files </a></li>
+                <li><span>|</span></li>
+                <li><a href="https://www.anu.edu.au/">ANU</a></li>    
+            </ul>
+        </div>  
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

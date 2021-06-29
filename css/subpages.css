@@ -1,0 +1,87 @@
+/* subpages include aboutme.html, mytrips.html, feedback.html, mission.html, sitemap.html, sourcelog.html */
+
+/* This is the background image set for all subpages */
+body {
+    background-image: url(../Images/seawater.jpg);
+}
+    
+/* style the paragraphs in all subpages */
+p {
+    font-size: 20px;
+    color:white;
+}
+
+
+/* This is for the fixed heading in all subpages */
+#navigation {
+    /* set the background of the heading to be integrated into the background of the body */
+    background-image: url(../Images/seawater.jpg);
+    /* adjust the size and position of the heading */
+    width:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;  
+    height:170px;
+    /* keep navigation bar at the top, not covered by image with position:relative */
+    z-index: 1;
+}
+
+#content{
+    /* padding the top of the content, avoid being covered by heading */
+    padding-top: 190px;
+}
+
+/* This is pseudo element to make menu item targets appear below the menubar when we click on a menu item. 
+To do this we use :target:before to create a block of empty content of height 105 pixels before the target. */
+:target:before{
+    content:"";
+    display: block;
+    height:190px;
+}
+
+
+
+
+/* This is my style sheet applied to mission.html*/  
+/* set the size and position of the text */
+#mission {
+    width: 50%;
+    padding: 60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+}
+
+
+
+
+/* This is my style sheet applied to reflection.html*/  
+#reflection {
+    width: 50%;
+    padding: 60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+}
+
+
+
+
+
+/* This is my style sheet applied to validation.html*/  
+#validation {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* border of the table */
+    border-collapse: collapse;
+    border-width: 2pt;
+    background-color: rgb(14, 55, 109);
+    color:white;
+}
+#validation img{
+    width:200px;
+}
+
+
+

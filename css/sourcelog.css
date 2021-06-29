@@ -1,0 +1,41 @@
+/* This is my style sheet applied to sourcelog.html*/
+
+/* set the size and position of the table and decorate it */
+#sourcelogtable{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* border of the table */
+    border-collapse: collapse;
+    border-width: 2pt;
+    background-color: rgb(14, 55, 109);
+    color:white;
+}
+
+/* style the caption of this table */
+#sourcelogtable caption{
+    font-style: italic;
+    color: rgb(186, 211, 247);
+}
+
+#sourcelogtable th, td {
+    /* border of each table heading and data */
+    border: 2px solid rgb(186, 211, 247);
+    /* space between each table data */
+    padding:10px 10px 10px 10px;
+}
+
+/* set the size of images */
+#sourcelogtable img{   
+    width: 100px;
+}
+
+/* colour of links in this table */
+#sourcelogtable a{
+    color:white;
+}
+  
+/* when move mouse over a row, background colour of this row will change */
+#sourcelogtable tr:hover{
+    background-color: rgb(57, 120, 209);
+}

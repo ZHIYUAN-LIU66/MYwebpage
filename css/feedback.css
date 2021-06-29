@@ -1,0 +1,37 @@
+/* This is my style sheet applied to feedback.html*/
+
+/* style the position and colour of the text in the form */
+#replyform{
+    text-align: center;
+    color:white;
+    line-height: 40px;
+}
+
+/* space between two input areas */
+#replyform input, textarea{
+    margin: 10px 0 30px 0;
+}
+
+/* style the submit button */
+#replyform input[type=submit]{
+    background-color: lightblue;
+    color: rgb(22, 88, 230);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* when move mouse over the submit button, colour will change */
+#replyform input[type=submit]:hover{
+    background-color: rgb(68, 194, 236);
+}
+
+/* style the reset button */
+#replyform input[type=reset]{
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

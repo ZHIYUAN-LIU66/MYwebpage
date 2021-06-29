@@ -1,0 +1,35 @@
+/* This is my style sheet applied to sitemap.html*/
+
+
+#sitemap {
+    /* keep the sitemap content at the center */
+    margin: auto;
+    font-weight: bold;
+}
+
+/* no border for this table */
+#sitemap td{
+    border: none;
+}
+
+/* color of terms in the list */
+#sitemap li{
+    color: rgb(255, 255, 255);  
+}
+
+/* Remove the underlines of the links */
+#sitemap a{
+    text-decoration: none;
+}
+
+/* colour of the level 1 links */
+#sitemap h2 a{
+    color: rgb(255, 255, 255);
+}
+
+/* colour of the level 2 links */
+#sitemap h3 a{
+    color: rgb(186, 211, 247);
+    padding-left: 10px;
+} 
+

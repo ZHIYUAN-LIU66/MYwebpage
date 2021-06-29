@@ -1,0 +1,54 @@
+/* This is my style sheet applied to the index.html*/
+
+/* set the background image of index.html */
+body {
+  background-image: url(../Images/background.JPG);
+}
+
+/* set the font and position of text in the menu */
+#menu { 
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  text-align: left;
+  float: left;
+}
+
+/* set the width and height of the unordered list */
+#menu ul {
+  width: auto;
+  height: auto;
+}
+
+/* set the style of terms in the list  */
+#menu li{
+  list-style: none;
+  /* space between two terms in the list */
+  padding: 45px;
+}
+
+/* style links in the menu */
+#menu a {  
+  font-family: sans-serif;
+  font-size: 30px;
+  /* Remove the underlines of the links */
+  text-decoration: none;
+  color: white;
+}
+
+/* when move mouse over the link, colour will change */
+#menu a:hover{
+  color: rgb(38, 120, 235);
+}
+
+/* style the paragraph in the menu */
+#menu p{
+  font-size: 20px;
+  color: rgb(186, 211, 247);
+}
+  
+/* style the social networking feed  */
+.timeline {
+  float: right;
+  padding-top: 150px;
+}
